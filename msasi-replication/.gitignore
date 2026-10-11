@@ -1,0 +1,19 @@
+# data never goes into the repo
+data/
+*.parquet
+*.csv
+*.jsonl
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# local config / editor
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
